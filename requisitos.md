@@ -616,7 +616,7 @@
 | **R69**     | **Asociar con API Twitter para crear bot automatizado**           |
 | --------------: | :------------------- |
 | **Descripción** | Asociar con la API de twitter para desarrolladores e integrar con un bot la aplicación de forma que cada hora publique automáticamente un resumen de la actividad: - Últimas subidas → enlace y titulos más descargados - Lo más descargado del mes → enlace y títulos             |
-| **Prioridad**   | Opcional           |
+| **Prioridad**   | Mínimo           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v3             |
@@ -656,6 +656,33 @@
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
+
+
+| **R74**     | **Integrar torrents en trackers**           |
+| --------------: | :------------------- |
+| **Descripción** | Decirle a trackers importantes que existe cada torrent almacenado en el sitio             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R75**     | **Sistema de licencias**           |
+| --------------: | :------------------- |
+| **Descripción** | Implementar sistema de licencias que se muestre al visualizar un torrent, para conocer la licencia que dispone el archivo que vamos a descargar.             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R76**     | **Demanda de torrent**           |
+| --------------: | :------------------- |
+| **Descripción** | Crear apartado donde los usuarios puedan demandar un torrent específico que aún no haya sido subido a la plataforma             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
 
 
 
@@ -731,8 +758,11 @@
 | (**R66**) Exportar estadísticas a PDF | Mínimo | Funcional | Media | v3 |
 | (**R67**) Login Google+ | Opcional | Funcional | Difícil | v3 |
 | (**R68**) Login Facebook | Opcional | Funcional | Difícil | v3 |
-| (**R69**) Asociar con API Twitter para crear bot automatizado | Opcional | Funcional | Media | v3 |
+| (**R69**) Asociar con API Twitter para crear bot automatizado | Mínimo | Funcional | Media | v3 |
 | (**R70**) Asociar con API Telegram para crear bot automatizado | Opcional | Funcional | Media | v3 |
 | (**R71**) Exportar BD en plano | Opcional | Funcional | Fácil | v3 |
 | (**R72**) Exportar BD en CSV | Opcional | Funcional | Fácil | v3 |
 | (**R73**) Bloquear posibles torrents peligrosos | Opcional | Funcional | Difícil | v3 |
+| (**R74**) Integrar torrents en trackers | Opcional | Funcional | Difícil | v3 |
+| (**R75**) Sistema de licencias | Mínimo | Funcional | Fácil | v3 |
+| (**R76**) Demanda de torrent | Mínimo | Funcional | Media | v2 |
